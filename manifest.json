@@ -1,0 +1,19 @@
+{
+    "name": "衆院選予想 2021",
+    "description": "2021年の衆議院選挙の予想を支援します。",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+      "16": "icon_16x16.png",
+      "48": "icon_48x48.png",
+      "128": "icon_128x128.png"
+    },
+    "permissions": ["activeTab","scripting"],
+    "action": {
+      "default_title": "予想を見る",
+      "default_icon": "icon_48x48.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
